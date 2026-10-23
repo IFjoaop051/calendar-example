@@ -1,0 +1,35 @@
+{
+  "name": "calendar",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "expo": "^57.0.26",
+    "expo-status-bar": "~2.0.1",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-calendars": "^1.1314.0",
+    "react-native-safe-area-context": "^5.10.1",
+    "react-native-webview": "^14.0.1",
+    "react-native-youtube-iframe": "^2.4.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "~9",
+    "@react-native/eslint-config": "^0.87.1",
+    "@types/react": "~19.2.2",
+    "@types/react-native": "~0.73.0",
+    "eslint": "~9",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-native": "^5.0.0",
+    "globals": "^17.13.0",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.71.0"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "private": true
+}
