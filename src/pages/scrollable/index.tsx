@@ -12,6 +12,10 @@ const INSETS_PROP_KEYS = [ "top", "left", "right", "bottom" ] as const;
 function ScrollablePage() {
   const insets = useSafeAreaInsets();
 
+  // Obviously over-engineering.
+  // I'm just testing some things.
+  // And this is a stupid way to get "insetStyles".
+  // Do no repeat it.
   const insetStyles = useMemo(() => {
     return INSETS_PROP_KEYS.reduce((o, k) => {
       if(!Object.prototype.hasOwnProperty.call(insets, k)) {
