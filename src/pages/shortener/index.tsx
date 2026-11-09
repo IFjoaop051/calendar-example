@@ -16,6 +16,7 @@ function ShortenerHomeScreen() {
           style={shortenerStyles.urlInput}
           value={urlInput}
           onChangeText={setUrlInput}
+          focusable={false}
           placeholder="Digite a URL (e.g. https://google.com)"
         />
         <TouchableOpacity style={shortenerStyles.urlButtons}>

@@ -25,10 +25,9 @@ export const shortenerStyles = StyleSheet.create({
   urlInput: {
     borderRadius: 10,
     borderWidth: 1,
-    borderColor: "#ececec",
-    padding: 20,
+    borderColor: "#e6e6e6",
+    padding: 17,
     width: "90%",
-    height: 50,
   },
 
   urlButtons: {
